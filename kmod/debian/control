@@ -8,7 +8,7 @@ Homepage: https://github.com/miskcoo/ugreen_leds_controller
 
 Package: led-ugreen-dkms
 Architecture: all
-Depends: ${misc:Depends}, dkms
+Depends: ${misc:Depends}, dkms, linux-headers-amd64
 Recommends: i2c-tools
 Provides: led-ugreen-kernel
 Description: UGREEN NAS LED driver (DKMS kernel module)
